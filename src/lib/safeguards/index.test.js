@@ -141,7 +141,7 @@ describe('safeguards', () => {
           title: 'no secrets',
           safeguardName: 'no-secret-env-vars',
           policyUid: 'nos-secrest-policy-id',
-          enforcementLevel: 'error',
+          enforcementLevel: 'warn',
           safeguardConfig: null
         }
       ])
